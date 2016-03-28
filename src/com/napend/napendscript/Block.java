@@ -20,6 +20,10 @@ public abstract class Block {
 		return superBlock;
 	}
 	
+	public void addBlock(Block block){
+		subBlocks.add(block);
+	}
+	
 	public abstract void run();
 	
 }
